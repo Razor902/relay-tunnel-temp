@@ -54,7 +54,8 @@ you whether the device works. The curve is the judge, not the idea.
 ### Relay switch points
 
 The blueprint marks four switch points where the crossing tubes meet the
-ring, plus the center crossing where red meets yellow. Each switch point
+ring, plus the center crossing where red meets yellow. On the blueprint
+these four switch points are labeled S1, S2, S3, and S4. Each switch point
 is a place where the path can be chosen, and a place where a bad switch
 can lose the signal. Test each point on its own before testing the
 whole circle.
