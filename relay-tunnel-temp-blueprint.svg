@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Relay, tunnel, temperature blueprint: blue laser ring with red and yellow tubes crossed, silicon disc tunneling stage, temperature control zone">
+  <rect x="0" y="0" width="1200" height="900" fill="#0a1220"/>
+  <!-- Title block -->
+  <text x="60" y="55" font-family="sans-serif" font-size="34" font-weight="bold" fill="#ffffff">RELAYS, TUNNELS, AND TEMPERATURE</text>
+  <text x="60" y="88" font-family="sans-serif" font-size="18" fill="#a8c0d8">Laser relay circle + silicon disc tunneling stage + temperature control</text>
+  <rect x="60" y="105" width="260" height="30" fill="none" stroke="#ffcc00" stroke-width="2"/>
+  <text x="72" y="126" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffcc00">DRAFT / GATHERED — CONCEPT ONLY</text>
+
+  <!-- Temperature control zone around the main circle -->
+  <rect x="110" y="160" width="640" height="560" fill="none" stroke="#7fb069" stroke-width="3" stroke-dasharray="14 10"/>
+  <text x="130" y="185" font-family="sans-serif" font-size="16" font-weight="bold" fill="#7fb069">TEMPERATURE CONTROL ZONE</text>
+  <text x="130" y="207" font-family="sans-serif" font-size="14" fill="#cfe3c8">Hold steady. Measure temperature at the disc.</text>
+
+  <!-- Main laser relay circle: blue ring, red and yellow crossed -->
+  <g>
+    <!-- Yellow tube (drawn first, red crosses over it at center) -->
+    <line x1="305" y1="275" x2="695" y2="585" stroke="#ffd400" stroke-width="16" stroke-linecap="round"/>
+    <!-- Red tube -->
+    <line x1="305" y1="585" x2="695" y2="275" stroke="#ff2d2d" stroke-width="16" stroke-linecap="round"/>
+    <!-- Blue ring -->
+    <circle cx="500" cy="430" r="250" fill="none" stroke="#2f9dff" stroke-width="18"/>
+    <circle cx="500" cy="430" r="250" fill="none" stroke="#bfe6ff" stroke-width="2" opacity="0.6"/>
+    <!-- Center crossing glow -->
+    <circle cx="500" cy="430" r="26" fill="#ffffff" opacity="0.25"/>
+  </g>
+
+  <!-- Silicon disc tunneling stage at the center -->
+  <circle cx="500" cy="430" r="72" fill="#101826" stroke="#e8eef5" stroke-width="3"/>
+  <text x="500" y="420" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">SILICON DISC</text>
+  <text x="500" y="442" font-family="sans-serif" font-size="14" fill="#e8eef5" text-anchor="middle">TUNNELING STAGE</text>
+  <text x="500" y="462" font-family="sans-serif" font-size="12" fill="#a8c0d8" text-anchor="middle">barrier: atoms thick</text>
+
+  <!-- Relay switch points where tubes meet the ring -->
+  <g font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff">
+    <circle cx="305" cy="275" r="18" fill="#0a1220" stroke="#ffffff" stroke-width="3"/><text x="305" y="281" text-anchor="middle">S1</text>
+    <circle cx="695" cy="275" r="18" fill="#0a1220" stroke="#ffffff" stroke-width="3"/><text x="695" y="281" text-anchor="middle">S2</text>
+    <circle cx="305" cy="585" r="18" fill="#0a1220" stroke="#ffffff" stroke-width="3"/><text x="305" y="591" text-anchor="middle">S3</text>
+    <circle cx="695" cy="585" r="18" fill="#0a1220" stroke="#ffffff" stroke-width="3"/><text x="695" y="591" text-anchor="middle">S4</text>
+  </g>
+  <text x="500" y="745" font-family="sans-serif" font-size="15" fill="#ffffff" text-anchor="middle">S1–S4: relay switch points — one live path at a time: blue ring, red tube, or yellow tube</text>
+  <text x="500" y="770" font-family="sans-serif" font-size="14" fill="#a8c0d8" text-anchor="middle">Center: red and yellow cross at the silicon disc</text>
+
+  <!-- Legend -->
+  <g font-family="sans-serif" font-size="16" fill="#ffffff">
+    <line x1="800" y1="190" x2="860" y2="190" stroke="#2f9dff" stroke-width="10" stroke-linecap="round"/><text x="875" y="196">Blue tube — outer ring</text>
+    <line x1="800" y1="225" x2="860" y2="225" stroke="#ff2d2d" stroke-width="10" stroke-linecap="round"/><text x="875" y="231">Red tube — crossing route</text>
+    <line x1="800" y1="260" x2="860" y2="260" stroke="#ffd400" stroke-width="10" stroke-linecap="round"/><text x="875" y="266">Yellow tube — crossing route</text>
+    <rect x="800" y="285" width="60" height="22" fill="none" stroke="#7fb069" stroke-width="3" stroke-dasharray="8 6"/><text x="875" y="303">Temperature control zone</text>
+  </g>
+
+  <!-- Disc cross-section inset, right side -->
+  <g>
+    <rect x="790" y="340" width="350" height="260" fill="#101826" stroke="#e8eef5" stroke-width="2"/>
+    <text x="965" y="372" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">DISC CROSS-SECTION</text>
+    <rect x="830" y="400" width="270" height="52" fill="#3a5a7a"/>
+    <text x="965" y="432" font-family="sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Silicon</text>
+    <rect x="830" y="452" width="270" height="16" fill="#ffcc00"/>
+    <text x="965" y="492" font-family="sans-serif" font-size="14" fill="#ffcc00" text-anchor="middle">Barrier — atoms thick</text>
+    <rect x="830" y="505" width="270" height="52" fill="#3a5a7a"/>
+    <text x="965" y="537" font-family="sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Silicon</text>
+    <line x1="965" y1="400" x2="965" y2="557" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 6"/>
+    <text x="965" y="585" font-family="sans-serif" font-size="13" fill="#a8c0d8" text-anchor="middle">Tunneling arrow: through, not over</text>
+  </g>
+
+  <!-- Test note -->
+  <g font-family="sans-serif" font-size="15" fill="#ffffff">
+    <text x="790" y="640" font-weight="bold">TEST: THE I–V CURVE IS THE JUDGE</text>
+    <text x="790" y="665">1. Set one relay path. 2. Record barrier.</text>
+    <text x="790" y="688">3. Hold temperature. 4. Sweep voltage.</text>
+    <text x="790" y="711">5. Read the curve. Repeat it, or it is not a result.</text>
+  </g>
+  <text x="790" y="745" font-family="sans-serif" font-size="14" fill="#a8c0d8">Materials background: Si, Ge, InAs/GaSb,</text>
+  <text x="790" y="767" font-family="sans-serif" font-size="14" fill="#a8c0d8">barrier SiO2 or HfO2. Design unproven until built.</text>
+
+  <!-- Footer -->
+  <text x="60" y="850" font-family="sans-serif" font-size="15" fill="#a8c0d8">DRAFT / GATHERED — concept only, awaiting review and testing. Physics proven; this specific disc design unproven until built and measured.</text>
+  <text x="60" y="878" font-family="sans-serif" font-size="15" fill="#ffffff">© Crimson Rose LLC, Curtis Ray Dyess 2026-27</text>
+</svg>
